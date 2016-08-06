@@ -41,9 +41,9 @@ def post_webhook():
                         message_text = messaging_event['message']['text']
                         image = "http://cdn.shopify.com/s/files/1/0080/8372/products/tattly_jen_mussari_hello_script_web_design_01_grande.jpg"
                         element = create_generic_template_element("Hello", image, message_text)
-                        reply_with_generic_template(sender_id, [element])
+                        # reply_with_generic_template(sender_id, [element])
 
-                        # do_rules(sender_id, message_text)
+                        do_rules(sender_id, message_text)
 
     return "ok", 200
 
@@ -95,7 +95,7 @@ def do_rules(recipient_id, message_text):
     }
 
     if message_text in rules:
-        reply_with_text(recipient_id, rules[message_text])
+        # reply_with_text(recipient_id, rules[message_text])
         reply_with_generic_template(recipient_id, rules[message_text])
 
 
