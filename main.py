@@ -56,42 +56,42 @@ def get_url(url):
 def do_rules(recipient_id, message_text):
     rules = {
         "Hello": "Hi, what year would you like to be inspired by?"
-        "1900": create_generic_template_element("1900",	"http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg")
+        "1900": create_generic_template_element("1900",	"http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "This is a description apparently")
 
-        "1910": create_generic_template_element("1900",	"http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg")
-
-        "1920": create_generic_template_element("1900",	"http://image.glamourdaze.com/2014/04/1920s-DRESS-TIMELINE-eveningwear.jpg")
-
-        "1930": create_generic_template_element("1900",	"http://www.marquise.de/en/themes/timeline/timeline6.jpg")
-
-        "1940": create_generic_template_element("1900",	"http://cdn.vintagedancer.com/wp-content/uploads/1941-day-dresses-house-crop-petite1.jpg")
-
-        "1950": create_generic_template_element("1900",	"http://fashion.lilithezine.com/images/1950s-Fashion-10.jpg")
-
-        "1960": create_generic_template_element("1900",	"http://blogretro.vanityfair.it/files/2014/02/Moda-anni-Sessanta.jpg")
-
-        "1970": create_generic_template_element("1900",	"https://s-media-cache-ak0.pinimg.com/564x/8f/72/a6/8f72a6458d0c961fe95f479ef8720a3f.jpg")
-
-        "1980": create_generic_template_element("1900",	"https://blushingbtique.files.wordpress.com/2014/10/1980s-fashion.png")
-
-        "1990": create_generic_template_element("1900",	"https://blushingbtique.files.wordpress.com/2014/10/1990s-fashion.png")
-
-        "2000": create_generic_template_element("1900",	"http://www.ixdaily.com/storage/styles/article-large/public/article/3335519-e806d251.jpg?itok=SI-NKCHm")
-
-        "2010": create_generic_template_element("1900",	"http://www.thechicfashionista.com/images/xfw201011.jpg.pagespeed.ic.ZVOF6fh_C3.jpg")
-
-        "2011": create_generic_template_element("1900", "http://3.bp.blogspot.com/-xJ-F4WvvTBM/TaDwodSsLvI/AAAAAAAACTk/9ovfmjdlmrI/s1600/Fall+2011+Fashion+Trends+-+The+Sweater+Set.jpg")
-
-        "2012": create_generic_template_element("1900",	"http://xposuremodeling.com/wp-content/uploads/2012/09/fall-2012-fashion-trends-1.jpg")
-
-        "2013": create_generic_template_element("1900",	"http://www.glamour.com/images/fashion/2013/03/spring-trends-river-promo-w724.jpg")
-
-        "2014": create_generic_template_element("1900",	"http://www.eonline.com/eol_images/Entire_Site/2013810/rs_1024x759-130910092814-1024.croptops.cm.91013.jpg")
-        "2015": create_generic_template_element("1900",	"http://1-moda.com/wp-content/uploads/2014/04/0222.jpg")
-
-        "2016": create_generic_template_element("1900",	"http://ell.h-cdn.co/assets/16/10/1457396249-elle-fall-2016-trends-index.jpg")
-        "2370": create_generic_template_element("1900",	"http://3.bp.blogspot.com/-55uX2TiFbJc/UY88OpJ_53I/AAAAAAAAOAg/85JWBgV8vUc/s1600/Dr_Beverly_Crusher03.jpg")
-        "2350": create_generic_template_element("2350", "http://67.media.tumblr.com/ed79bc3e8dea303291861b4a27f5d2a7/tumblr_nur5eapJvA1qzx9wpo1_1280.jpg")
+        # "1910": create_generic_template_element("1900",	"http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg")
+        #
+        # "1920": create_generic_template_element("1900",	"http://image.glamourdaze.com/2014/04/1920s-DRESS-TIMELINE-eveningwear.jpg")
+        #
+        # "1930": create_generic_template_element("1900",	"http://www.marquise.de/en/themes/timeline/timeline6.jpg")
+        #
+        # "1940": create_generic_template_element("1900",	"http://cdn.vintagedancer.com/wp-content/uploads/1941-day-dresses-house-crop-petite1.jpg")
+        #
+        # "1950": create_generic_template_element("1900",	"http://fashion.lilithezine.com/images/1950s-Fashion-10.jpg")
+        #
+        # "1960": create_generic_template_element("1900",	"http://blogretro.vanityfair.it/files/2014/02/Moda-anni-Sessanta.jpg")
+        #
+        # "1970": create_generic_template_element("1900",	"https://s-media-cache-ak0.pinimg.com/564x/8f/72/a6/8f72a6458d0c961fe95f479ef8720a3f.jpg")
+        #
+        # "1980": create_generic_template_element("1900",	"https://blushingbtique.files.wordpress.com/2014/10/1980s-fashion.png")
+        #
+        # "1990": create_generic_template_element("1900",	"https://blushingbtique.files.wordpress.com/2014/10/1990s-fashion.png")
+        #
+        # "2000": create_generic_template_element("1900",	"http://www.ixdaily.com/storage/styles/article-large/public/article/3335519-e806d251.jpg?itok=SI-NKCHm")
+        #
+        # "2010": create_generic_template_element("1900",	"http://www.thechicfashionista.com/images/xfw201011.jpg.pagespeed.ic.ZVOF6fh_C3.jpg")
+        #
+        # "2011": create_generic_template_element("1900", "http://3.bp.blogspot.com/-xJ-F4WvvTBM/TaDwodSsLvI/AAAAAAAACTk/9ovfmjdlmrI/s1600/Fall+2011+Fashion+Trends+-+The+Sweater+Set.jpg")
+        #
+        # "2012": create_generic_template_element("1900",	"http://xposuremodeling.com/wp-content/uploads/2012/09/fall-2012-fashion-trends-1.jpg")
+        #
+        # "2013": create_generic_template_element("1900",	"http://www.glamour.com/images/fashion/2013/03/spring-trends-river-promo-w724.jpg")
+        #
+        # "2014": create_generic_template_element("1900",	"http://www.eonline.com/eol_images/Entire_Site/2013810/rs_1024x759-130910092814-1024.croptops.cm.91013.jpg")
+        # "2015": create_generic_template_element("1900",	"http://1-moda.com/wp-content/uploads/2014/04/0222.jpg")
+        #
+        # "2016": create_generic_template_element("1900",	"http://ell.h-cdn.co/assets/16/10/1457396249-elle-fall-2016-trends-index.jpg")
+        # "2370": create_generic_template_element("1900",	"http://3.bp.blogspot.com/-55uX2TiFbJc/UY88OpJ_53I/AAAAAAAAOAg/85JWBgV8vUc/s1600/Dr_Beverly_Crusher03.jpg")
+        # "2350": create_generic_template_element("2350", "http://67.media.tumblr.com/ed79bc3e8dea303291861b4a27f5d2a7/tumblr_nur5eapJvA1qzx9wpo1_1280.jpg")
     }
 
     if message_text in rules:
