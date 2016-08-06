@@ -55,7 +55,7 @@ def get_url(url):
 
 def do_rules(recipient_id, message_text):
     rules = {
-        "Hello": "Hi, what year would you like to be inspired by?"
+        "Hello": create_generic_template_element("Hi, what year would you like to be inspired by?", "",""),
         "1900": create_generic_template_element("1900",	"http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "This is a description apparently")
 
         # "1910": create_generic_template_element("1900",	"http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg")
