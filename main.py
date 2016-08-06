@@ -56,29 +56,29 @@ def get_url(url):
 def do_rules(recipient_id, message_text):
     rules = {
         "Hello": {"main": "Hi, what year would you like to be inspired by?", "image": "", "subtitle": ""},
-        "1900": {"main": "1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"}
-        "1900": {"main": "Year: 1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"}
-        "1910": {"main": "Year: 1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"}
-        "1920": {"main": "Year: 1900", "image": "http://image.glamourdaze.com/2014/04/1920s-DRESS-TIMELINE-eveningwear.jpg", "subtitle": "This is a description apparently"}
-        "1930": {"main": "Year: 1900", "image": "http://www.marquise.de/en/themes/timeline/timeline6.jpg", "subtitle": "This is a description apparently"}
-        "1940": {"main": "Year: 1900", "image": "http://cdn.vintagedancer.com/wp-content/uploads/1941-day-dresses-house-crop-petite1.jpg", "subtitle": "This is a description apparently"}
-        "1950": {"main": "Year: 1900", "image": "http://fashion.lilithezine.com/images/1950s-Fashion-10.jpg", "subtitle": "This is a description apparently"}
-        "1960": {"main": "Year: 1900", "image": "http://blogretro.vanityfair.it/files/2014/02/Moda-anni-Sessanta.jpg", "subtitle": "This is a description apparently"}
-        "1970": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/564x/8f/72/a6/8f72a6458d0c961fe95f479ef8720a3f.jpg", "subtitle": "This is a description apparently"}
-        "1980": {"main": "Year: 1900", "image": "https://blushingbtique.files.wordpress.com/2014/10/1980s-fashion.png", "subtitle": "This is a description apparently"}
-        "1990": {"main": "Year: 1900", "image": "https://blushingbtique.files.wordpress.com/2014/10/1990s-fashion.png", "subtitle": "This is a description apparently"}
-        "2000": {"main": "Year: 1900", "image": "http://www.ixdaily.com/storage/styles/article-large/public/article/3335519-e806d251.jpg?itok=SI-NKCHm", "subtitle": "This is a description apparently"}
-        "2010": {"main": "Year: 1900", "image": "http://www.thechicfashionista.com/images/xfw201011.jpg.pagespeed.ic.ZVOF6fh_C3.jpg", "subtitle": "This is a description apparently"}
-        "2011": {"main": "Year: 1900", "image": "http://3.bp.blogspot.com/-xJ-F4WvvTBM/TaDwodSsLvI/AAAAAAAACTk/9ovfmjdlmrI/s1600/Fall+2011+Fashion+Trends+-+The+Sweater+Set.jpg", "subtitle": "This is a description apparently"}
-        "2012": {"main": "Year: 1900", "image": "http://xposuremodeling.com/wp-content/uploads/2012/09/fall-2012-fashion-trends-1.jpg", "subtitle": "This is a description apparently"}
-        "2013": {"main": "Year: 1900", "image": "http://www.glamour.com/images/fashion/2013/03/spring-trends-river-promo-w724.jpg", "subtitle": "This is a description apparently"}
-        "2014": {"main": "Year: 1900", "image": "http://www.eonline.com/eol_images/Entire_Site/2013810/rs_1024x759-130910092814-1024.croptops.cm.91013.jpg", "subtitle": "This is a description apparently"}
-        "2015": {"main": "Year: 1900", "image": "http://1-moda.com/wp-content/uploads/2014/04/0222.jpg", "subtitle": "This is a description apparently"}
-        "2016": {"main": "Year: 1900", "image": "http://ell.h-cdn.co/assets/16/10/1457396249-elle-fall-2016-trends-index.jpg", "subtitle": "This is a description apparently"}
-        "2370": {"main": "Year: 1900", "image": "http://3.bp.blogspot.com/-55uX2TiFbJc/UY88OpJ_53I/AAAAAAAAOAg/85JWBgV8vUc/s1600/Dr_Beverly_Crusher03.jpg", "subtitle": "This is Doctor Beverly Crusher showing off some very classy starfleet attire. Quite common for humans in the year 2370."}
-        "2020": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/236x/03/99/e6/0399e66e75115a5fbd3e6beb45465368.jpg", "subtitle": "This is a description apparently"}
-        "2030": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/236x/ac/19/28/ac1928f6f20d9ab28ab6050b9bbb1158.jpg", "subtitle": "This is a description apparently"}
-        "2040": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/564x/8e/19/d4/8e19d4faf7531c12b9e6bef8f2b7cb5e.jpg", "subtitle": "This is a description apparently"}
+        "1900": {"main": "1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"},
+        "1900": {"main": "Year: 1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"},
+        "1910": {"main": "Year: 1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"},
+        "1920": {"main": "Year: 1900", "image": "http://image.glamourdaze.com/2014/04/1920s-DRESS-TIMELINE-eveningwear.jpg", "subtitle": "This is a description apparently"},
+        "1930": {"main": "Year: 1900", "image": "http://www.marquise.de/en/themes/timeline/timeline6.jpg", "subtitle": "This is a description apparently"},
+        "1940": {"main": "Year: 1900", "image": "http://cdn.vintagedancer.com/wp-content/uploads/1941-day-dresses-house-crop-petite1.jpg", "subtitle": "This is a description apparently"},
+        "1950": {"main": "Year: 1900", "image": "http://fashion.lilithezine.com/images/1950s-Fashion-10.jpg", "subtitle": "This is a description apparently"},
+        "1960": {"main": "Year: 1900", "image": "http://blogretro.vanityfair.it/files/2014/02/Moda-anni-Sessanta.jpg", "subtitle": "This is a description apparently"},
+        "1970": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/564x/8f/72/a6/8f72a6458d0c961fe95f479ef8720a3f.jpg", "subtitle": "This is a description apparently"},
+        "1980": {"main": "Year: 1900", "image": "https://blushingbtique.files.wordpress.com/2014/10/1980s-fashion.png", "subtitle": "This is a description apparently"},
+        "1990": {"main": "Year: 1900", "image": "https://blushingbtique.files.wordpress.com/2014/10/1990s-fashion.png", "subtitle": "This is a description apparently"},
+        "2000": {"main": "Year: 1900", "image": "http://www.ixdaily.com/storage/styles/article-large/public/article/3335519-e806d251.jpg?itok=SI-NKCHm", "subtitle": "This is a description apparently"},
+        "2010": {"main": "Year: 1900", "image": "http://www.thechicfashionista.com/images/xfw201011.jpg.pagespeed.ic.ZVOF6fh_C3.jpg", "subtitle": "This is a description apparently"},
+        "2011": {"main": "Year: 1900", "image": "http://3.bp.blogspot.com/-xJ-F4WvvTBM/TaDwodSsLvI/AAAAAAAACTk/9ovfmjdlmrI/s1600/Fall+2011+Fashion+Trends+-+The+Sweater+Set.jpg", "subtitle": "This is a description apparently"},
+        "2012": {"main": "Year: 1900", "image": "http://xposuremodeling.com/wp-content/uploads/2012/09/fall-2012-fashion-trends-1.jpg", "subtitle": "This is a description apparently"},
+        "2013": {"main": "Year: 1900", "image": "http://www.glamour.com/images/fashion/2013/03/spring-trends-river-promo-w724.jpg", "subtitle": "This is a description apparently"},
+        "2014": {"main": "Year: 1900", "image": "http://www.eonline.com/eol_images/Entire_Site/2013810/rs_1024x759-130910092814-1024.croptops.cm.91013.jpg", "subtitle": "This is a description apparently"},
+        "2015": {"main": "Year: 1900", "image": "http://1-moda.com/wp-content/uploads/2014/04/0222.jpg", "subtitle": "This is a description apparently"},
+        "2016": {"main": "Year: 1900", "image": "http://ell.h-cdn.co/assets/16/10/1457396249-elle-fall-2016-trends-index.jpg", "subtitle": "This is a description apparently"},
+        "2370": {"main": "Year: 1900", "image": "http://3.bp.blogspot.com/-55uX2TiFbJc/UY88OpJ_53I/AAAAAAAAOAg/85JWBgV8vUc/s1600/Dr_Beverly_Crusher03.jpg", "subtitle": "This is Doctor Beverly Crusher showing off some very classy starfleet attire. Quite common for humans in the year 2370."},
+        "2020": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/236x/03/99/e6/0399e66e75115a5fbd3e6beb45465368.jpg", "subtitle": "This is a description apparently"},
+        "2030": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/236x/ac/19/28/ac1928f6f20d9ab28ab6050b9bbb1158.jpg", "subtitle": "This is a description apparently"},
+        "2040": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/564x/8e/19/d4/8e19d4faf7531c12b9e6bef8f2b7cb5e.jpg", "subtitle": "This is a description apparently"},
         "A long time ago in a galaxy far, far away": {"main": "A long time ago in a galaxy far, far away", "subtitle": "./images/leia.png", "subtitle": "This is Princess Leia showing off some on point space fashion."}
     }
 
