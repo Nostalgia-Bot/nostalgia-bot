@@ -79,10 +79,10 @@ def do_rules(recipient_id, message_text):
         "2020": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/236x/03/99/e6/0399e66e75115a5fbd3e6beb45465368.jpg", "subtitle": "This is a description apparently"},
         "2030": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/236x/ac/19/28/ac1928f6f20d9ab28ab6050b9bbb1158.jpg", "subtitle": "This is a description apparently"},
         "2040": {"main": "Year: 1900", "image": "https://s-media-cache-ak0.pinimg.com/564x/8e/19/d4/8e19d4faf7531c12b9e6bef8f2b7cb5e.jpg", "subtitle": "This is a description apparently"},
-        "A long time ago in a galaxy far, far away": {"main": "A long time ago in a galaxy far, far away", "subtitle": "./images/leia.png", "subtitle": "This is Princess Leia showing off some on point space fashion."},
+        "A long time ago in a galaxy far, far away": {"main": "A long time ago in a galaxy far, far away", "image": "./images/leia.png", "subtitle": "This is Princess Leia showing off some on point space fashion."},
 
         #Replies to normal text
-        "4000": {"main": "Sorry, I can’t predict the future, but join me bye travelling back in time!", "image": "https://nostalgicwardrobe.files.wordpress.com/2010/01/carl-bengtsson-photo7.jpg?w=600" "subtitle": "Send me the year you are nostalgic about."},
+        "4000": {"main": "Sorry, I can’t predict the future, but join me bye travelling back in time!", "image": "https://nostalgicwardrobe.files.wordpress.com/2010/01/carl-bengtsson-photo7.jpg?w=600", "subtitle": "Send me the year you are nostalgic about."},
         "1850": {"main": "Sorry, fashionable fashion is not that old!", "image": "https://s-media-cache-ak0.pinimg.com/564x/fd/28/35/fd28353650c19fd224f0c70bc95cc28e.jpg", "subtitle": "Start with 1900!"},
         "car": {"main": "I am sorry, I did not understand you.", "image": "", "subtitle": "Please try again!"}
 
