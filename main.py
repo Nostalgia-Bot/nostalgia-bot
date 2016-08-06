@@ -97,7 +97,7 @@ def do_rules(recipient_id, message_text):
     if message_text in rules:
         # reply_with_text(recipient_id, rules[message_text])
         hash = rules[message_text]
-        reply_with_generic_template(recipient_id, create_generic_template_element(hash["main"],	hash["image"], hash["subtitle"]))
+        reply_with_generic_template(recipient_id, [create_generic_template_element(hash["main"],	hash["image"], hash["subtitle"])])
 
 
     else:
@@ -148,7 +148,7 @@ def create_generic_template_element(title, image_url, subtitle):
     return {
         "title": title,
         "image_url": image_url,
-        "subtitle": [subtitle]
+        "subtitle": subtitle
     }
 
 
