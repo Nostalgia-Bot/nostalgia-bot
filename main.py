@@ -95,8 +95,9 @@ def do_rules(recipient_id, message_text):
     }
 
     if message_text in rules:
-        # reply_with_text(recipient_id, rules[message_text])
+        reply_with_text(recipient_id, rules[message_text])
         reply_with_generic_template(recipient_id, rules[message_text])
+
 
     else:
         reply_with_text(recipient_id, "You have to write something I understand ;)")
