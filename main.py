@@ -56,10 +56,10 @@ def get_url(url):
 def do_rules(recipient_id, message_text):
     rules = {
         "Hello": {"main": "Hi! I am your historic fashion look-book. Write me a year to look up haute couture from past centuries.", "image": "http://i2.cdn.turner.com/cnnnext/dam/assets/160122154934-serkan-cura-aw14-haute-couture-large-169.jpg", "subtitle": "Get inspired and mix it with today's styles."},
-        "1900": {"main": "1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"},
+        "1900": {"main": "1900", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a fashion line-up from the 1900s"},
         "1910": {"main": "Year: 1910", "image": "http://image.glamourdaze.com/2013/09/dress-timeline-1900-to-1909.jpg", "subtitle": "This is a description apparently"},
         "1920": {"main": "Year: 1920", "image": "http://image.glamourdaze.com/2014/04/1920s-DRESS-TIMELINE-eveningwear.jpg", "subtitle": "This is a description apparently"},
-        "1930": {"main": "Year: 1930", "image": "http://www.marquise.de/en/themes/timeline/timeline6.jpg", "subtitle": "This is a description apparently"},
+        "1930": {"main": "Year: 1930", "image": "http://www.marquise.de/en/themes/timeline/timeline6.jpg", "subtitle": "This is a fashion line-up from the 1930s"},
         "1940": {"main": "Year: 1940", "image": "http://cdn.vintagedancer.com/wp-content/uploads/1941-day-dresses-house-crop-petite1.jpg", "subtitle": "This is a description apparently"},
         "1950": {"main": "Year: 1950", "image": "http://fashion.lilithezine.com/images/1950s-Fashion-10.jpg", "subtitle": "This is a description apparently"},
         "1960": {"main": "Year: 1960", "image": "http://blogretro.vanityfair.it/files/2014/02/Moda-anni-Sessanta.jpg", "subtitle": "This is a description apparently"},
